@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mark Luis A. Bertillo — Portfolio</title>
+<meta name="description" content="UI/UX Designer & Video Editor portfolio of Mark Luis A. Bertillo">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="noise"></div>
+
+<!-- ============================================================
+     NAVBAR
+============================================================ -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container nav-inner">
+    <a class="navbar-brand nav-logo" href="#hero">MLB<span>.</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="toggler-line"></span>
+      <span class="toggler-line"></span>
+      <span class="toggler-line"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto nav-links">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================================================
+     HERO / INTRODUCTION
+============================================================ -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="grid-lines"></div>
+  </div>
+
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-7">
+        <div class="hero-tag reveal">Available for opportunities</div>
+        <h1 class="hero-title reveal delay-1">
+          <span class="hero-line">Hi, I'm</span>
+          <span class="hero-name">Mark Luis.</span>
+        </h1>
+        <p class="hero-sub reveal delay-2">UI/UX Designer &amp; Video Editor crafting simple, human-centered experiences.</p>
+        <div class="hero-chips reveal delay-3">
+          <span class="chip">UI/UX Designer</span>
+          <span class="chip">Video Editor</span>
+          <span class="chip">Learning Film</span>
+          <span class="chip">Learning Quality Assurance</span>
+        </div>
+        <div class="hero-cta reveal delay-4">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-ghost">Get In Touch</a>
+        </div>
+      </div>
+      <div class="col-lg-5 text-center text-lg-end">
+        <div class="hero-card reveal delay-2">
+          <img src="images/CCMS9854.jpg" alt="Mark Luis Bertillo" class="hero-img">
+          <div class="hero-card-badge">
+            <span class="pulse-dot"></span>
+            Open to work
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT ME
+============================================================ -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6 reveal">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">I make things <br><span class="blue-text">easy &amp; meaningful</span></h2>
+        <p class="about-text">I love to understand people and human feelings, and I like to spread messages by creating my designs and films in a simple and easy to understand way. I like to make things easy for other people so that it won't be a bother to them. Every project I take on starts with empathy — understanding who I'm designing for before I design anything at all.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num" data-target="20">0</span>+
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-target="4">0</span>
+            <span class="stat-label">Disciplines</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-target="2">0</span>+
+            <span class="stat-label">Years Learning</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal delay-1">
+        <div class="about-img-wrap">
+          <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&q=80" alt="Design process" class="about-img">
+          <div class="about-img-tag">UI/UX &amp; Film</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SKILLS
+============================================================ -->
+<section class="skills" id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-label">What I Use</span>
+      <h2 class="section-title">My <span class="blue-text">Skills</span></h2>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-6 col-md-3 reveal delay-0">
+        <div class="skill-card" style="--tech-color:#61DAFB">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 128 128" class="skill-svg"><g fill="#61DAFB"><circle cx="64" cy="64" r="11.4"/><path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.8 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zM92.5 14.7c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zM81.3 74c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zM64 97.8c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zM64 30.2c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2-2.2-4.1-3.4-6.2zM31.7 35c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zM7 64c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5C19.4 75.1 7 69.6 7 64zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zM96.3 93c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9.2-26.3c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 9.6 22.1 14.9 0 4.7-5.8 9.7-15.7 13.1z"/></g></svg>
+          </div>
+          <span class="skill-name">React</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-bar-fill" style="--level:70%"></div></div>
+            <span class="skill-level">70%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 reveal delay-1">
+        <div class="skill-card" style="--tech-color:#F7DF1E">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 128 128" class="skill-svg"><path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"/></svg>
+          </div>
+          <span class="skill-name">JavaScript</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-bar-fill" style="--level:75%"></div></div>
+            <span class="skill-level">75%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 reveal delay-2">
+        <div class="skill-card" style="--tech-color:#264de4">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 128 128" class="skill-svg"><path fill="#264de4" d="M19.478 121.064L7.16 0h113.68l-12.333 121.048-46.193 12.868z"/><path fill="#2965f1" d="M64 116.8l37.378-10.358 10.547-118.086H64z"/><path fill="#ebebeb" d="M64 52.455H45.788l-1.244-13.971H64V25.268H29.647l.332 3.701 3.388 38.005H64zm0 36.201l-.061.017-15.327-4.14-.979-10.975H34.6l1.928 21.59 27.42 7.609.052-.015z"/><path fill="#fff" d="M63.952 52.455v13.216h16.947l-1.597 17.849-15.35 4.143v13.732l27.438-7.609.202-2.26 3.15-35.243.332-3.828zm0-27.187v13.216h33.297l.276-3.092.628-6.978.332-3.146z"/></svg>
+          </div>
+          <span class="skill-name">CSS</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-bar-fill" style="--level:85%"></div></div>
+            <span class="skill-level">85%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 reveal delay-3">
+        <div class="skill-card" style="--tech-color:#646CFF">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 128 128" class="skill-svg"><defs><linearGradient id="vite-a" x1="6" x2="235" y1="33" y2="344" gradientUnits="userSpaceOnUse" gradientTransform="scale(.377)"><stop offset="0" stop-color="#41d1ff"/><stop offset="1" stop-color="#bd34fe"/></linearGradient><linearGradient id="vite-b" x1="194.7" x2="236.1" y1="8.8" y2="293" gradientUnits="userSpaceOnUse" gradientTransform="scale(.377)"><stop offset="0" stop-color="#ffea83"/><stop offset=".083" stop-color="#ffdd35"/><stop offset="1" stop-color="#ffa800"/></linearGradient></defs><path fill="url(#vite-a)" d="M124.766 19.52 67.324 122.238c-1.187 2.121-4.234 2.133-5.437.024L3.305 19.535c-1.313-2.302.641-5.11 3.268-4.7l58.023 9.435c.42.066.85.066 1.27 0l56.629-9.434c2.62-.407 4.573 2.387 3.266 4.689z"/><path fill="url(#vite-b)" d="M85.498 0 50.37 7.471c-.37.068-.586.412-.512.778l6.163 47.45a.515.515 0 00.78.37l9.272-4.281c.49-.226 1.056.17 1.004.706l-1.843 18.56c-.055.565.567.952 1.057.679l5.897-3.228c.49-.276 1.114.112 1.056.68l-2.923 26.97c-.09.85 1.14 1.238 1.572.492l.637-1.101 35.23-70.226c.265-.528-.19-1.118-.775-1.006l-9.875 1.912a.515.515 0 01-.583-.61L91.848.677C91.745.114 91.12-.204 90.63.0z"/></svg>
+          </div>
+          <span class="skill-name">Vite</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-bar-fill" style="--level:70%"></div></div>
+            <span class="skill-level">70%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 reveal delay-0">
+        <div class="skill-card" style="--tech-color:#FF2D20">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 128 128" class="skill-svg"><path fill="#FF2D20" d="M106.6 45.67l.03.09 13.07 38.78c.34 1.03.52 2.11.52 3.2 0 5.65-4.58 10.23-10.23 10.23-2.7 0-5.27-1.05-7.18-2.94l-12.01-11.73-.03.01V83h-.18l.18-.24v-.05l-.01-.05v-37.7L89 44.73l-13.56-5.52V37.5c0-2.45 1.97-4.42 4.42-4.42h2.28L72.06 10.3l-.05-.09c-.17-.38-.26-.8-.26-1.23 0-1.7 1.38-3.08 3.08-3.08.44 0 .87.09 1.27.27l.07.04L109.39 21l.08.04c1.27.64 2.08 1.95 2.08 3.42 0 .43-.07.85-.21 1.24l-.06.16-4.68 19.81zM22.54 45.67L17.86 25.86l-.06-.16c-.14-.39-.21-.81-.21-1.24 0-1.47.81-2.78 2.08-3.42l.08-.04L52.93 6.21l.07-.04c.4-.18.83-.27 1.27-.27 1.7 0 3.08 1.38 3.08 3.08 0 .43-.09.85-.26 1.23l-.05.09L46.96 33.08h2.28c2.45 0 4.42 1.97 4.42 4.42v1.71L40.1 44.73l-.75.24v37.7l-.01.05v.05L39.52 83H39.34v.07L27.33 94.8c-1.91 1.89-4.48 2.94-7.18 2.94C14.5 97.74 9.92 93.16 9.92 87.51c0-1.09.18-2.17.52-3.2l13.07-38.78.03-.09-.03.09z"/></svg>
+          </div>
+          <span class="skill-name">Laravel</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-bar-fill" style="--level:65%"></div></div>
+            <span class="skill-level">65%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 reveal delay-1">
+        <div class="skill-card" style="--tech-color:#777BB4">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 128 128" class="skill-svg"><path fill="#777BB3" d="M64 33.039c-33.6 0-60.748 13.991-60.748 31.286 0 17.294 27.148 31.285 60.748 31.285 33.6 0 60.748-13.991 60.748-31.285 0-17.295-27.148-31.286-60.748-31.286z"/><path fill="#fff" d="M38.03 43.088h11.645l-2.027 10.532H56.8c4.07 0 6.87.803 8.397 2.408 1.526 1.606 1.914 4.223.954 7.843l-3.496 15.285H50.7l3.273-14.373c.503-2.003.434-3.358-.208-4.063-.642-.706-2.062-1.06-4.268-1.06h-8.437l-4.507 19.496H24.108l13.922-35.068zm56.056 0h11.645l-13.922 35.068H79.164l1.636-7.136h-11.32c-3.91 0-6.61-.837-8.108-2.512-1.497-1.674-1.872-4.25-.933-7.726l2.978-12.974h12.256l-2.77 12.11c-.467 1.954-.374 3.273.28 3.957.652.684 2.142 1.026 4.464 1.026h7.97l4.449-22.813z"/></svg>
+          </div>
+          <span class="skill-name">PHP</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-bar-fill" style="--level:60%"></div></div>
+            <span class="skill-level">60%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 reveal delay-2">
+        <div class="skill-card" style="--tech-color:#A259FF">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 128 128" class="skill-svg"><path fill="#0acf83" d="M45.5 128c11.85 0 21.5-9.65 21.5-21.5V85H45.5C33.65 85 24 94.65 24 106.5S33.65 128 45.5 128z"/><path fill="#a259ff" d="M24 64c0-11.85 9.65-21.5 21.5-21.5H67V85H45.5C33.65 85 24 75.35 24 64z"/><path fill="#f24e1e" d="M24 21.5C24 9.65 33.65 0 45.5 0H67v43H45.5C33.65 43 24 33.35 24 21.5z"/><path fill="#ff7262" d="M67 0h21.5C100.35 0 110 9.65 110 21.5S100.35 43 88.5 43H67V0z"/><path fill="#1abcfe" d="M110 64c0 11.85-9.65 21.5-21.5 21.5S67 75.85 67 64s9.65-21.5 21.5-21.5S110 52.15 110 64z"/></svg>
+          </div>
+          <span class="skill-name">Figma</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar"><div class="skill-bar-fill" style="--level:80%"></div></div>
+            <span class="skill-level">80%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 reveal delay-3">
+        <div class="skill-card" style="--tech-color:#FF4D6D">
+        <div class="skill-icon-wrap">
+          <svg viewBox="0 0 128 128" class="skill-svg">
+            <rect width="128" height="128" rx="14" fill="#1E1E1E"/>
+            <rect x="24" y="34" width="80" height="60" rx="8" fill="#2D2D2D" stroke="#FF4D6D" stroke-width="4"/>
+            <polygon points="54,50 54,78 80,64" fill="#FF4D6D"/>
+          </svg>
+        </div>
+        <span class="skill-name">Video Editing</span>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar"><div class="skill-bar-fill" style="--level:75%"></div></div>
+          <span class="skill-level">75%</span>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROJECTS
+============================================================ -->
+<section class="projects" id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-label">Selected Work</span>
+      <h2 class="section-title">My <span class="blue-text">Projects</span></h2>
+      <p class="section-sub">A few placeholder entries below — swap in your real projects, screenshots, and links anytime.</p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Project 1 -->
+      <div class="col-md-6 reveal delay-0">
+        <div class="project-card" style="--accent:#3b82f6">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1603398938378-e54eab446dde" alt="[Project Title 1]" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/mlabnerdy/NursingThoughts" target="_blank" rel="noopener noreferrer" class="project-view">View Source ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Nursing Thoughts</h3>
+
+            <div class="project-meta-row">
+              <span class="meta-label">Language Used:</span>
+              <div class="project-langs">
+                <span class="lang-pill">HTML</span>
+                <span class="lang-pill">JavaScript</span>
+                <span class="lang-pill">CSS</span>
+                <span class="lang-pill">PHP</span>
+              </div>
+            </div>
+
+            <div class="project-meta-row">
+              <span class="meta-label">Responsibilities:</span>
+              <div class="project-langs">
+                <span class="resp-pill">UI/UX Design</span>
+                <span class="resp-pill">Frontend Development</span>
+                <span class="resp-pill">Backend Development</span>
+              </div>
+            </div>
+
+            <p class="project-desc">A comprehensive nursing review platform designed for nursing students, featuring multiple-choice examinations, identification activities, practice questions with rationales, and subject-based review materials to support academic learning, critical thinking, and examination preparation.</p>
+            <a href="https://github.com/mlabnerdy/NursingThoughts" target="_blank" rel="noopener noreferrer" class="project-source-link">
+              <svg viewBox="0 0 16 16" class="gh-icon" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+              View Source Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-6 reveal delay-1">
+        <div class="project-card" style="--accent:#60a5fa">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?" alt="[Project Title 2]" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/jzuelos/ERPTS" target="_blank" rel="noopener noreferrer" class="project-view">View Source ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Electronic Real-Property Tax System</h3>
+
+            <div class="project-meta-row">
+              <span class="meta-label">Language Used:</span>
+              <div class="project-langs">
+                <span class="lang-pill">Javascript</span>
+                <span class="lang-pill">Bootstrap</span>
+                <span class="lang-pill">CSS</span>
+              </div>
+            </div>
+
+            <div class="project-meta-row">
+              <span class="meta-label">Responsibilities:</span>
+              <div class="project-langs">
+                <span class="resp-pill">Frontend Development</span>
+                <span class="resp-pill">UI/UX Designer</span>
+              </div>
+            </div>
+
+            <p class="project-desc">Electronic Real Property Tax System (ERPTS) is a digital platform designed to streamline the assessment, management, and payment of real property taxes. It helps improve efficiency, accuracy, and accessibility for both government offices and taxpayers through automated records, online transactions, and real-time monitoring.</p>
+
+            <a href="https://github.com/jzuelos/ERPTS" target="_blank" rel="noopener noreferrer" class="project-source-link">
+              <svg viewBox="0 0 16 16" class="gh-icon" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+              View Source Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-6 reveal delay-2">
+        <div class="project-card" style="--accent:#1d4ed8">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40" alt="[Project Title 3]" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/jzuelos/QUEENS-WEB" target="_blank" rel="noopener noreferrer" class="project-view">View Source ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Queens Manpower Services Corportion Website</h3>
+
+            <div class="project-meta-row">
+              <span class="meta-label">Language Used:</span>
+              <div class="project-langs">
+                <span class="lang-pill">Figma</span>
+                <span class="lang-pill">UI/UX</span>
+                <span class="lang-pill">Laravel</span>
+                <span class="lang-pill">Bootstrap</span>
+                <span class="lang-pill">Vite</span>
+                <span class="lang-pill">CSS</span>
+              </div>
+            </div>
+
+            <div class="project-meta-row">
+              <span class="meta-label">Responsibilities:</span>
+              <div class="project-langs">
+                <span class="resp-pill">Frontend Development</span>
+                <span class="resp-pill">Visual Design</span>
+                <span class="resp-pill">Prototyping</span>
+              </div>
+            </div>
+
+            <p class="project-desc">An emerging Philippine recruitment agency website designed to connect job seekers with reputable employers. </p>
+            <a href="https://github.com/jzuelos/QUEENS-WEB" target="_blank" rel="noopener noreferrer" class="project-source-link">
+              <svg viewBox="0 0 16 16" class="gh-icon" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+              View Source Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="col-md-6 reveal delay-0">
+        <div class="project-card" style="--accent:#6b7280">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd" alt="[Project Title 4]" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/jzuelos/QuantumConstruction" target="_blank" rel="noopener noreferrer" class="project-view">View Source ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Quantum-Leap Construction Website</h3>
+
+            <div class="project-meta-row">
+              <span class="meta-label">Language Used:</span>
+              <div class="project-langs">
+                 <span class="lang-pill">Figma</span>
+                <span class="lang-pill">UI/UX</span>
+                <span class="lang-pill">Laravel</span>
+                <span class="lang-pill">Bootstrap</span>
+                <span class="lang-pill">Vite</span>
+                <span class="lang-pill">CSS</span>
+              </div>
+            </div>
+
+            <div class="project-meta-row">
+              <span class="meta-label">Responsibilities:</span>
+              <div class="project-langs">
+                <span class="resp-pill">Frontend Development</span>
+                <span class="resp-pill">Visual Design</span>
+                <span class="resp-pill">Prototyping</span>
+              </div>
+            </div>
+
+            <p class="project-desc">A corporate web platform that showcases the company’s construction services, projects, and  business information through a professional and user-friendly online presence.</p>
+
+            <a href="https://github.com/jzuelos/QuantumConstruction" target="_blank" rel="noopener noreferrer" class="project-source-link">
+              <svg viewBox="0 0 16 16" class="gh-icon" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+              View Source Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     EXPERIENCE
+============================================================ -->
+<section class="experience" id="experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-label">My Journey</span>
+      <h2 class="section-title">Work <span class="blue-text">Experience</span></h2>
+      <p class="section-sub">Placeholder entries below — replace with your real OJT, project-based, and academic experience.</p>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item reveal delay-0">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-type timeline-type--ojt">OJT</span>
+          <h3 class="timeline-role">UI/UX Designer and Frontend Developer</h3>
+          <div class="timeline-org-row">
+            <span class="timeline-org">Quantum-Leap International Manpower Recruitment Agency</span>
+            <span class="timeline-period">February 2026 — May 2026</span>
+          </div>
+          <p class="timeline-desc">I learned on handling a clients needs and translating it through my design and development.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal delay-1">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-type timeline-type--project-based">Project-Based</span>
+          <h3 class="timeline-role">Nursing Thoughts</h3>
+          <div class="timeline-org-row">
+            <span class="timeline-org">Nursing Students of Mabini Colleges Inc.</span>
+            <span class="timeline-period">April 2025 — May 2025</span>
+          </div>
+          <p class="timeline-desc">Led the design and development of a project-based system by managing a team of three members throughout the project lifecycle. Responsible for creating the UI/UX design, coordinating team tasks, and overseeing both front-end and back-end development to ensure the successful completion of the project.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal delay-2">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-type timeline-type--academic">Academic</span>
+          <h3 class="timeline-role">ELECTRONIC REAL PROPERTY TAX SYSTEM (CAPSTONE PROJECT)</h3>
+          <div class="timeline-org-row">
+            <span class="timeline-org">University of Camarines Norte</span>
+            <span class="timeline-period">2022 - 2026 </span>
+          </div>
+          <p class="timeline-desc">Developed and upgraded the Electronic Real Property Tax System (ERPTS) for the Assessor’s Office as part of an academic capstone project in the field of Information Systems. The project focused on modernizing property tax management processes through digital solutions. Contributed by creating the system design, managing a team of five members, and overseeing both front-end and back-end development.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+============================================================ -->
+<section class="contact" id="contact">
+  <div class="contact-bg">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+  </div>
+  <div class="container">
+    <div class="contact-inner reveal">
+      <span class="section-label">Get In Touch</span>
+      <h2 class="contact-title">Let's create something <span class="blue-text">together.</span></h2>
+      <p class="contact-sub">Whether it's a design project, a film, or just a conversation — I'm always open.</p>
+
+      <div class="contact-links">
+        <button class="contact-link" onclick="copyEmail()">
+          <span class="contact-link-icon">✉</span>
+          markluisbertillo11@gmail.com
+        </button>
+        <a href="https://github.com/mlabnerdy" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <svg viewBox="0 0 16 16" class="contact-svg-icon" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          github.com/mlabnerdy
+        </a>
+        <a href="https://www.linkedin.com/in/bertillo-mark-luis-353257417/" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <svg viewBox="0 0 24 24" class="contact-svg-icon" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 11.02-4.12 2.06 2.06 0 01-.02 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          LinkedIn Profile
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <span class="footer-logo">MLB<span>.</span></span>
+    <span class="footer-copy">© 2026 Mark Luis A. Bertillo. All rights reserved.</span>
+    <span class="footer-made">Designed with ♥</span>
+  </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+  /* COPY EMAIL */
+function copyEmail() {
+    navigator.clipboard.writeText("markluisbertillo11@gmail.com");
+    alert("Email copied to clipboard!");
+}
+</script>
+</body>
+</html>
