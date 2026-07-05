@@ -405,6 +405,31 @@ a:hover { color: inherit; }
 .contact-link-icon { color: var(--blue); font-size: 1rem; }
 .contact-svg-icon { width: 16px; height: 16px; color: var(--blue); flex-shrink: 0; }
 
+/* ── COPY TOAST NOTIFICATION ────────────────────────────── */
+#copyToast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--grey-deep);
+  color: var(--white);
+  border: 1px solid var(--blue);
+  padding: .65rem 1.4rem;
+  border-radius: 999px;
+  font-size: .88rem;
+  font-weight: 500;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9999;
+  transition: opacity .3s, transform .3s;
+  white-space: nowrap;
+}
+
+#copyToast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
 /* ── FOOTER ──────────────────────────────────────────────── */
 .footer { border-top: 1px solid var(--grey-mid); background: var(--dark); padding: 1.8rem 0; }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }

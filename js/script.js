@@ -1,7 +1,3 @@
-/* ============================================================
-   MARK LUIS A. BERTILLO — PORTFOLIO JS (Bootstrap version)
-   ============================================================ */
-
 document.addEventListener('DOMContentLoaded', () => {
 
   /* ── CUSTOM CURSOR ─────────────────────────────────────── */
@@ -117,9 +113,3 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-
-/* COPY EMAIL */
-function copyEmail() {
-    navigator.clipboard.writeText("@gmail.com");
-    alert("Email copied to clipboard!");
-}
